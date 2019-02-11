@@ -3,10 +3,13 @@ nav {
     align-items: center;
     flex-direction: row;
     width: 100%;
-    padding-top: 15px;
-    background: yellow;
+    padding-top: 10px;
     color: black;
-        
+         @media @phone {
+            font-size: 1.6rem;
+            width: 100%;
+            font-size: 4.5rem;
+  }
     }
 
         a {
@@ -26,4 +29,9 @@ h1 {
             text-align: center;
             background: yellow;
         }
-    
+
+
+
+
+
+@phone: ~"(max-width: 500px)";
