@@ -115,3 +115,57 @@ button {
 button:hover {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
+.Carousel {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 16px;
+}
+@media (max-width: 500px) {
+  .Carousel {
+    max-width: 400px;
+  }
+}
+.Carousel .leftbtn,
+.Carousel .rightbtn {
+  display: flex;
+  justify-content: center;
+  align-items: none;
+  flex-direction: row;
+  color: yellow;
+  background-color: green;
+  font-size: 40px;
+  border-radius: 50%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.Carousel .leftbtn:hover,
+.Carousel .rightbtn:hover {
+  color: yellow;
+  background-color: green;
+  border: 2px solid yellowgreen;
+}
+.Carousel .leftbtn {
+  top: 50%;
+  left: 25px;
+  transform: translate(0, -50%);
+}
+.Carousel .rightbtn {
+  top: 50%;
+  right: 25px;
+  transform: translate(0, -50%);
+}
+.Carousel .img {
+  width: 100%;
+  display: none;
+}
+.width-100 {
+  width: 100%;
+}
