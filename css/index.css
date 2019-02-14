@@ -5,6 +5,7 @@ nav {
   width: 100%;
   padding-top: 10px;
   color: black;
+  background-image: url("imgBKS\book2.png");
 }
 @media (max-width: 500px) {
   nav {
