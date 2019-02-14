@@ -1,49 +1,46 @@
 .carousel {
-    .width-100();
-    .flex(center, center);
-    height: 200px;
-    position: relative;
-    overflow: hidden;
-    margin-top: 16px;
-        
-    @media @phone {
-      max-width: 400px
-  }
-
-  .leftbtn, .rightbtn {
-    .flex(center);
-    color: yellow;
-    background-color: green;
-    font-size: 40px;
-    border-radius: 50%;
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    &:hover {
-      color: yellow;
-      background-color: green;
-      border: 2px solid yellowgreen;
-    }
-  }
-  .leftbtn {
-    top: 50%; 
-    left: 25px;
-    transform: translate(0, -50%);
-  }
-  .rightbtn {
-    top: 50%; 
-    right: 25px;
-    transform: translate(0, -50%);
-  }
-  .img {
-    .width-100();
-    display: none;
-  }
+  .flex(center, center);
+  position: relative;
+  overflow: hidden;
+  margin-top: 16px;
+      
+  @media @phone {
+    max-width: 400px
 }
 
-.width-100 {
-  width: 100%;
+
+
+.leftbtn, .rightbtn {
+  color: yellow;
+  background-color: green;
+  font-size: 40px;
+  border-radius: 50%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  &:hover {
+    color: yellow;
+    background-color: green;
+    border: 2px solid yellowgreen;
+  }
+}
+.leftbtn {
+  top: 50%; 
+  left: 25px;
+  transform: translate(0, -50%);
+}
+.rightbtn {
+  top: 50%; 
+  right: 25px;
+  transform: translate(0, -50%);
+}
+img {
+  width: 30%;
+  height: 40%;
+  display: none;
+}
+
 }
 
 .flex(@jc: none, @ai: none, @dir: row) {
@@ -52,3 +49,43 @@
   align-items: @ai;
   flex-direction: @dir;
 }
+
+#dialogoverlay{
+  display: none;
+  opacity: .8;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: #FFF;
+  width: 100%;
+  z-index: 10;
+}
+
+#dialogbox{
+  display: none;
+  position: fixed;
+  background: #000;
+  border-radius: 7px;
+  width: 550px;
+  z-index: 10;
+
+  #head{ 
+    background:#666;
+    font-size:19px;
+    padding: 10px;
+    color: #ccc;
+  }
+
+  #body{
+    background: #333;
+    padding: 20px;
+    color:#FFF;
+  }
+
+  #foot{
+    background:#666;
+    padding: 10px;
+    text-align: right;
+  }
+}
+
