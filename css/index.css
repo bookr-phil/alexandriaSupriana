@@ -7,7 +7,7 @@ nav {
   color: #4CAF50;
   background-image: url("imgBKS\book2.png");
 }
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
   nav {
     font-size: 1.6rem;
     width: 100%;
@@ -69,7 +69,7 @@ p {
   width: 100%;
   margin: 0 auto;
 }
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -97,7 +97,7 @@ p {
   height: 20%;
   border-radius: 95%;
 }
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
   .info {
     display: flex;
     flex-direction: column;
@@ -111,7 +111,7 @@ p {
   width: 100%;
   justify-content: space-evenly;
 }
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
   .btn {
     display: none;
   }
@@ -126,7 +126,7 @@ button {
   text-decoration: none;
   font-size: 16px;
 }
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
   button {
     display: none;
   }
@@ -143,7 +143,7 @@ button:hover {
   overflow: hidden;
   margin-top: 16px;
 }
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
   .carousel {
     max-width: 400px;
   }
