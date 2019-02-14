@@ -17,7 +17,15 @@
     <a href="index.html">Home</a>
     <a href="about.html">BookR Circle</a>
     <a href="archives.html">Library</a>
-    <a href="main.html">Log In</a>
+
+    <div class="login-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Username" name="username">
+          <input type="text" placeholder="Password" name="psw">
+          <input type="submit" value="Log In" />
+          <input type="submit" value="Novice User" />
+        </form>
+        </div>
 </nav>
 
  <h2>How it works!</h2>
@@ -35,18 +43,10 @@
   <button type="button">Book 4 Book</button>
    <button type="button">Recycle Reads</button>
    <button type="button">Inspire a child</button>
-   <button onclick="Alert.render('Click on Library to shop available books')">Buy</button>
+   <button type="button">Buy</button>
    <button type="button">Rent</button>
  </div>
 
- <div id='dialogoverlay'></div>
-<div id="dialogbox"> 
-    <div>
-        <div id='dialogboxhead'></div>
-        <div id='dialogboxbody'></div>
-        <div id='dialogboxfoot'></div>
-    </div>
-</div>
 </body>
 
 
