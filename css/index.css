@@ -4,7 +4,7 @@ nav {
   flex-direction: row;
   width: 100%;
   padding-top: 10px;
-  color: black;
+  color: #4CAF50;
   background-image: url("imgBKS\book2.png");
 }
 @media (max-width: 500px) {
@@ -19,7 +19,7 @@ a {
   text-align: center;
   word-spacing: 2px;
   text-decoration: none;
-  color: black;
+  color: #4CAF50;
   font-size: 16px;
 }
 h1 {
@@ -27,11 +27,19 @@ h1 {
   font-size: 5rem;
   padding-top: 10px;
   text-align: center;
-  background: yellow;
+  background: #181817;
+}
+body {
+  color: #8d1111;
+  background: #2b2929;
+  opacity: 1;
+}
+body p {
+  color: bisque;
 }
 footer {
-  color: black;
-  background: yellow;
+  color: #4CAF50;
+  background: #181817;
   padding: 15px;
   border: 1px;
   border-radius: 10px;
@@ -39,6 +47,9 @@ footer {
   justify-content: center;
   align-items: center;
   margin-top: 15px;
+}
+footer p {
+  color: #4CAF50;
 }
 h2 {
   font-size: 3rem;
@@ -78,6 +89,7 @@ p {
 }
 .info p {
   width: 42%;
+  color: bisque;
 }
 @media (max-width: 500px) {
   .info {
@@ -99,10 +111,10 @@ p {
   }
 }
 button {
-  background-color: yellow;
+  background-color: #181817;
   border: 2px solid #4CAF50;
   float: left;
-  color: black;
+  color: #4CAF50;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -133,7 +145,7 @@ button:hover {
 .carousel .leftbtn,
 .carousel .rightbtn {
   color: yellow;
-  background-color: green;
+  background-color: #4CAF50;
   font-size: 40px;
   border-radius: 50%;
   position: absolute;
@@ -144,7 +156,7 @@ button:hover {
 .carousel .leftbtn:hover,
 .carousel .rightbtn:hover {
   color: yellow;
-  background-color: green;
+  background-color: #4CAF50;
   border: 2px solid yellowgreen;
 }
 .carousel .leftbtn {
