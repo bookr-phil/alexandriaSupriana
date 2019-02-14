@@ -95,6 +95,7 @@ p {
   display: flex;
   width: 20%;
   height: 20%;
+  border-radius: 95%;
 }
 @media (max-width: 500px) {
   .info {
